@@ -13,13 +13,15 @@
       <li class="nav-item active">
         <a class="nav-link" [routerLink]="['/']">Home </a>
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/', 'about']">about </a>
+        <a class="nav-link" [routerLink]="['/', 'about']">About </a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/', 'contact']">contact </a>
+        <a class="nav-link" [routerLink]="['/', 'contact']">Contact </a>
       </li>
     </ul>
   </div>
 </nav>
 
-<router-outlet></router-outlet>
+<div class="container pt-5">
+  <router-outlet></router-outlet>
+</div>
